@@ -50,7 +50,15 @@ body{
     color:white;
     padding: 10px;
     border-radius: 30px;
+    cursor: pointer;
+     border: solid blueviolet;
 
+}
+.categories p:hover{
+    transition: 1s;
+    background-color: transparent;
+    color: black;
+    border: solid blueviolet;
 }
 .section.jpg img{
     width: 90%;
@@ -115,4 +123,3 @@ body{
     margin: 20px;
     align-items: center;
 }
-
